@@ -1,11 +1,12 @@
 {
-    "routes": [
+    "rewrites": [
         {
-            "handle": "filesystem"
+            "source": "/privacy.html",
+            "destination": "/privacy.html"
         },
         {
-            "src": "/(.*)",
-            "dest": "/index.html"
+            "source": "/(.*)",
+            "destination": "/index.html"
         }
     ]
 }
