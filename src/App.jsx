@@ -1,13 +1,8 @@
 import { useEffect, useState } from 'react'
-import Privacy from './Privacy'
 import './index.css'
 
 function App() {
     const [code, setCode] = useState("")
-
-    if (window.location.pathname === '/privacy.html' || window.location.pathname === '/privacy') {
-        return <Privacy />
-    }
 
     useEffect(() => {
         // If someone opens this page, maybe they got routed here from a deep link?
