@@ -17,7 +17,7 @@ function App() {
     return (
         <div className="container">
             <div className="card">
-                <h1>Bidding Tic-Tac-Toe</h1>
+                <h1>Challenge Tic-Tac-Toe</h1>
 
                 {code ? (
                     <>
