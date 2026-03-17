@@ -23,7 +23,7 @@ function App() {
                     <>
                         <p>You've been invited to join a game! (Code: <strong>{code}</strong>)</p>
                         <p className="instruction">If you have the app installed, this link should have opened automatically.</p>
-                        <a href={`biddingttc://join/${code}`} className="button" style={{ marginTop: '20px', display: 'inline-block' }}>
+                        <a href={`challengettc://join/${code}`} className="button" style={{ marginTop: '20px', display: 'inline-block' }}>
                             Open in App
                         </a>
                     </>
